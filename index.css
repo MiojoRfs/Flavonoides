@@ -81,3 +81,13 @@ ul li {
     margin: 0 auto;
 
 }
+
+.image-container {
+    text-align: center; /* Centers the image within its container */
+}
+
+img {
+    border: 10px solid #e8d5f0; /* Adjust border color and width as needed */
+    max-width: 50%; /* Ensures the image doesn't exceed 80% of its container */
+    height: auto; /* Maintains aspect ratio */
+}
